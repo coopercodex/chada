@@ -8,9 +8,14 @@
   width: 100%;
   max-width: 100%;
   z-index: 1;
-  background-image: linear-gradient(to bottom, rgba(217, 192, 147, 0.293), 50%, transparent 100%);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(217, 192, 147, 0.293),
+    50%,
+    transparent 100%
+  );
   background-color: rgba(225, 221, 201, 0.197);
-  transition: all .1s ease-in-out;
+  transition: all 0.1s ease-in-out;
   height: 80px;
   padding-bottom: 1rem;
   padding-top: 2rem;
@@ -18,12 +23,8 @@
 
 .logo {
   object-fit: contain;
-  margin-top: 2.5rem;
-  margin-left: -4rem;
-  height: 300px;
-  width: 350px;
-  transition: all .3s ease-in-out;
-  
+  width: 170px;
+  transition: all 0.3s ease-in-out;
 }
 
 .logo:hover {
@@ -31,7 +32,7 @@
 }
 
 .nav-menu {
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -42,7 +43,7 @@
 
 .nav-menu li {
   padding: 0 1rem;
-  list-style-type:none;
+  list-style-type: none;
 }
 
 .nav-menu a {
@@ -53,7 +54,7 @@
 }
 
 .home-button {
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .home-button:hover {
@@ -78,7 +79,7 @@
   color: rgba(148, 112, 76);
 }
 
-@media screen and (max-width:980px) {
+@media screen and (max-width: 980px) {
   .hamburger {
     display: block;
   }
@@ -97,7 +98,6 @@
     height: 100vh;
     z-index: 1;
     background-color: rgba(148, 112, 76, 0.95);
-  
   }
 
   .hamburger-container {
@@ -116,7 +116,7 @@
   .nav-menu li {
     padding: 1rem 0;
   }
-  
+
   .nav-menu a {
     text-decoration: none;
     color: rgb(239, 237, 234);

@@ -1,4 +1,5 @@
 import './App.css'
+import { Contact } from './components/Contact'
 import { ImageOne } from './components/ImageOne'
 import { ImageThree } from './components/ImageThree'
 import { ImageTwo } from './components/ImageTwo'
@@ -11,7 +12,7 @@ function App() {
     <>
     <Navbar />
     <ImageOne /> 
-    <h1>Chada Thai</h1>
+    <Contact />
     {/* <ImageTwo /> */}
     <ImageThree />
     <h1>Chada Thai</h1>
