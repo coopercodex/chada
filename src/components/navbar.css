@@ -1,6 +1,6 @@
 .navbar {
-  color: rgb(238, 243, 239);
-  position: fixed;
+  color: rgb(247, 247, 247);
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,10 +8,118 @@
   width: 100%;
   max-width: 100%;
   z-index: 1;
-  background-image: linear-gradient(to bottom, rgba(107, 110, 112, 0.5), 50%, transparent 100%);
-  background-color: rgba(82, 82, 82, 0.05);
+  background-image: linear-gradient(to bottom, rgba(217, 192, 147, 0.293), 50%, transparent 100%);
+  background-color: rgba(225, 221, 201, 0.197);
   transition: all .1s ease-in-out;
   height: 80px;
   padding-bottom: 1rem;
   padding-top: 2rem;
+}
+
+.logo {
+  object-fit: contain;
+  margin-top: 2.5rem;
+  margin-left: -4rem;
+  height: 300px;
+  width: 350px;
+  transition: all .3s ease-in-out;
+  
+}
+
+.logo:hover {
+  transform: scale(1.03);
+}
+
+.nav-menu {
+  transition: all .4s ease-in-out;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0 1.5rem;
+  width: 100%;
+  list-style: none;
+}
+
+.nav-menu li {
+  padding: 0 1rem;
+  list-style-type:none;
+}
+
+.nav-menu a {
+  font-size: 1.4rem;
+  height: min-content;
+  color: rgb(15, 15, 15);
+  text-decoration: none;
+}
+
+.home-button {
+  transition: all .3s ease-in-out;
+}
+
+.home-button:hover {
+  text-decoration: none;
+  color: #c79a41;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger-container {
+  display: none;
+}
+
+.icon {
+  color: black;
+}
+
+.icon:hover {
+  color: rgba(148, 112, 76);
+}
+
+@media screen and (max-width:980px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    text-align: center;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(148, 112, 76, 0.95);
+  
+  }
+
+  .hamburger-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    width: 100%;
+    z-index: 0;
+    margin-right: 2rem;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-menu li {
+    padding: 1rem 0;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: rgb(239, 237, 234);
+    font-size: 1.2rem;
+  }
 }

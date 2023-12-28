@@ -1,4 +1,7 @@
 import './App.css'
+import { ImageOne } from './components/ImageOne'
+import { ImageThree } from './components/ImageThree'
+import { ImageTwo } from './components/ImageTwo'
 import { Navbar } from './components/Navbar'
 
 
@@ -7,8 +10,11 @@ function App() {
   return (
     <>
     <Navbar />
-      <h1>Chada Thai</h1>
-      <p>boy it's been awhile!</p>
+    <ImageOne /> 
+    <h1>Chada Thai</h1>
+    {/* <ImageTwo /> */}
+    <ImageThree />
+    <h1>Chada Thai</h1>
     </>
   )
 }
