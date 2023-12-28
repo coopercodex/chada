@@ -6,7 +6,7 @@ export const ImageOne = () => (
   className="image"
     bgImage={thaiTable}
     bgImageAlt="thai food on table"
-    strength={-200}
+    strength={200}
   >
     <div className="content">
       <span className="img-text">Welcome to thailand</span>
