@@ -1,5 +1,6 @@
 import './App.css'
 import { Contact } from './components/Contact'
+import { Footer } from './components/Footer'
 import { ImageOne } from './components/ImageOne'
 import { ImageThree } from './components/ImageThree'
 import { ImageTwo } from './components/ImageTwo'
@@ -16,6 +17,7 @@ function App() {
     {/* <ImageTwo /> */}
     <ImageThree />
     <h1>Chada Thai</h1>
+    <Footer />
     </>
   )
 }
