@@ -1,14 +1,38 @@
 .contact {
-display: flex;
-flex-direction: column;
+  display: flex;
+  margin: 5rem;
+  letter-spacing: 3px; 
 }
 
 .contact-content {
   display: flex;
   flex-direction: column;
- align-items: center;
+  align-items: center;
+  
 }
 
-.contact-content > p {
-  max-width: 75%;
+.contact-items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.contact-items > img {
+  align-self: center;
+}
+
+.contact-rows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-rows > p {
+  max-width: 50%;
+}
+
+.location-row {
+  display: flex;
+  flex-direction: column;
 }
