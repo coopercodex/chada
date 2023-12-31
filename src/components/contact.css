@@ -2,6 +2,7 @@
   display: flex;
   margin: 5rem;
   letter-spacing: 3px; 
+  max-width: 1080px;
 }
 
 .contact-content {
@@ -35,4 +36,7 @@
 .location-row {
   display: flex;
   flex-direction: column;
+  /* margin: 2rem; */
+  /* margin-right: 3rem; */
+  text-align: center;
 }
