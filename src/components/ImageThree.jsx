@@ -9,7 +9,7 @@ export const ImageThree = () => (
     strength={-500}
   >
     <div className="content">
-      <span className="img-text">Welcome to thailand</span>
+      <span className="img-text">The Menu</span>
     </div>
   </Parallax>
 )
