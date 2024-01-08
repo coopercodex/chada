@@ -1,40 +1,72 @@
-import React from 'react'
-import { FaFacebook, FaLinkedin, FaMailBulk, FaPhone, FaSearchLocation, FaTwitter } from 'react-icons/fa'
-import './footer.css'
+import React from "react"
+import {
+  FaFacebook,
+  FaLinkedin,
+  FaMailBulk,
+  FaPhone,
+  FaSearchLocation,
+  FaTwitter,
+} from "react-icons/fa"
+import "./footer.css"
 
 export const Footer = () => {
   return (
-    <div className='footer'>
-      <div className='footer-container'>
-        <div className='left'>
-          <div className='location'>
-            <FaSearchLocation size={20} style={{ color: 'white', marginRight: '2rem' }} />
-            <div className='phone'>
-              <h3>Denver, CO</h3>
+    <div className="footer">
+      <div className="footer-container">
+        <div className="left">
+          <div className="location">
+            <div className="phone">
+              <h3>Contact Us</h3>
+              <p>
+                Location: 2005 East 17th Avenue {"\n"} Denver, CO 80206 {"\n"}
+                Phone: 303-320-8582
+              </p>
+              Email:{" "}
+              <a href="mailto:chadathaidenver@gmail.com?subject=Inquiry from Chada Thai">
+                chadathaidenver@gmail.com
+              </a>
             </div>
-          </div>
-          <div className='phone'>
-            <h3><FaPhone size={20} style={{ color: 'white', marginRight: '2rem' }} />303</h3>
-          </div>
-          <div className='phone'>
-            <h3><FaMailBulk size={20} style={{ color: 'white', marginRight: '2rem' }} />
-              <a href="">gmail.com</a></h3>
           </div>
         </div>
-        <div className='right'>
-          <h4>Stay in touch</h4>
-          <div className='social'>
-            <a target="_blank" rel="noopener noreferrer" href=''>
-              <FaFacebook className='fb' />
+        <div className="center">
+          <h3>Hours</h3>
+          <div className="inner-content-center">
+            <div className="lunch">
+              <h4>Lunch</h4>
+              <p>
+                Monday: Closed For Lunch {"\n"} Tuesday: Closed {"\n"}
+                Wednesday: 11:30AM - 3PM {"\n"} Thursday: 11:30AM - 3PM {"\n"}
+                Friday: 11:30AM - 3PM {"\n"} SATURDAY: 3PM - 9PM {"\n"}
+                Sunday: Closed For Lunch
+              </p>
+            </div>
+            <div className="dinner">
+              <h4>Dinner</h4>
+              <p>
+                Monday: 5PM - 9PM {"\n"}
+                Tuesday: Closed {"\n"}
+                Wednesday: 5PM - 9PM {"\n"}
+                Thursday: 5PM - 9PM {"\n"}
+                Friday: 5PM - 9PM {"\n"}
+                Saturday: 12PM - 9PM {"\n"}
+                Sunday: 5PM - 9PM
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="right">
+          <h3>Stay in touch</h3>
+          <div className="social">
+            <a target="_blank" rel="noopener noreferrer" href="">
+              <FaFacebook className="fb" />
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="">
+              <FaLinkedin className="linkedin" />
             </a>
           </div>
-          <div className='bottom'>
-            <div className='logo-footer'>
-              // logo
-            </div>
-            <p>
-              Copyrights © 2023 by codexDesign
-              </p>
+          <div className="bottom">
+            <div className="logo-footer">// logo //</div>
+            <p>Copyright © 2023 by coopercodex</p>
           </div>
         </div>
       </div>
