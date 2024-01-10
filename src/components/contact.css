@@ -1,8 +1,8 @@
 .contact {
   display: flex;
-  margin: 5rem;
+  margin: 7rem;
   letter-spacing: 3px; 
-  max-width: 1080px;
+  max-width: 100%;
 }
 
 .contact-content {

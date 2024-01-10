@@ -57,10 +57,10 @@ export const Footer = () => {
         <div className="right">
           <h3>Stay in touch</h3>
           <div className="social">
-            <a target="_blank" rel="noopener noreferrer" href="">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/chadathaidenver/">
               <FaFacebook className="fb" />
             </a>
-            <a target="_blank" rel="noopener noreferrer" href="">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/chada-thai-denver/">
               <FaLinkedin className="linkedin" />
             </a>
           </div>
