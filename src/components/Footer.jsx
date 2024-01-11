@@ -2,10 +2,7 @@ import React from "react"
 import {
   FaFacebook,
   FaLinkedin,
-  FaMailBulk,
-  FaPhone,
   FaSearchLocation,
-  FaTwitter,
 } from "react-icons/fa"
 import "./footer.css"
 

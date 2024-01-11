@@ -39,5 +39,61 @@ a {
 }
 
 .fb {
-  padding-right: .5em;
+  padding-right: 0.5em;
+}
+
+@media screen and (max-width: 980px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .center > h3 {
+    text-align: center;
+  }
+  .phone {
+    text-align: center;
+  }
+  .inner-content-center {
+    display: flex;
+    margin-left: 3rem;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 680px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .center > h3 {
+    align-items: start;
+  }
+  .phone {
+    text-align: start;
+  }
+  .inner-content-center {
+    display: flex;
+    margin-left: 0rem;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .phone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
