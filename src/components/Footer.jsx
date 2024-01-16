@@ -1,10 +1,11 @@
 import React from "react"
+import "./footer.css"
 import {
   FaFacebook,
   FaLinkedin,
   FaSearchLocation,
 } from "react-icons/fa"
-import "./footer.css"
+import logoGold from '../images/logoGold.png'
 
 export const Footer = () => {
   return (
@@ -62,8 +63,8 @@ export const Footer = () => {
             </a>
           </div>
           <div className="bottom">
-            <div className="logo-footer">// logo //</div>
-            <p>Copyright © 2023 by coopercodex</p>
+            <div className="logo-footer"><img src={logoGold} /></div>
+            <p>Copyright © 2024 coopercodex</p>
           </div>
         </div>
       </div>
