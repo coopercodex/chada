@@ -11,7 +11,7 @@ export const ImageTwo = () => {
       strength={-500}
     >
       <div className="content">
-        <span className="img-text">Welcome to thailand</span>
+        <span className="img-text">Contact Us</span>
       </div>
     </Parallax>
   )
