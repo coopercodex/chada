@@ -40,6 +40,29 @@ a {
 
 .fb {
   padding-right: 0.5em;
+  transition: all 0.1s ease-in-out;
+}
+
+.linkedin {
+  transition: all 0.1s ease-in-out;
+}
+
+.fb:hover {
+  transform: scale(1.05);
+}
+
+.linkedin:hover {
+  transform: scale(1.05);
+}
+
+.logo-footer {
+  margin-left: -0.5rem;
+}
+
+.logo-footer > img {
+  height: 75px;
+  width: 100px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 980px) {
@@ -68,6 +91,12 @@ a {
     flex-direction: column;
     align-items: center;
   }
+
+  .logo-footer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
 }
 @media screen and (max-width: 680px) {
   .footer-container {
@@ -95,5 +124,9 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+  .logo-footer {
+    justify-content: flex-start;
+    margin-left: -0.5rem;
   }
 }
