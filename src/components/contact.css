@@ -1,90 +1,48 @@
 .contact {
   display: flex;
-  margin: 7rem;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin: 2rem;
   letter-spacing: 3px;
   max-width: 100%;
+  white-space: pre-line;
 }
 
-.contact-content {
+.contact-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.contact-items {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.contact-items > img {
-  align-self: center;
-}
-
-.contact-rows {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.contact-rows > p {
-  max-width: 50%;
-}
-
-.location-row {
-  display: flex;
-  flex-direction: column;
   margin: 3rem;
-  /* margin-right: 3rem; */
   text-align: center;
 }
+ .contact-info > img {
+  object-fit: contain;
+  height: 269px;
+  width: 277px;
+ }
 
-.delivery {
+ .contact-delivery {
   display: flex;
   flex-direction: row;
-  margin-top: -1rem;
-}
+  justify-content: center;
+  margin-top: -2rem;
+ }
 
-.grubhub {
+
+.contact-grubhub {
   margin-right: 2em;
   transition: all 0.2s ease-in-out;
 }
-.grubhub:hover {
+.contact-grubhub:hover {
   transform: scale(1.03);
 }
 
-.doordash {
+.contact-doordash {
   transition: all 0.2s ease-in-out;
 }
 
-.doordash:hover {
+.contact-doordash:hover {
   transform: scale(1.03);
 }
 
-@media screen and (max-width: 980px) {
-  .contact {
-    margin: 1rem;
-  }
-  .contact-items {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .location-row {
-    margin: 0;
-  }
-
-  .delivery {
-    display: flex;
-    flex-direction: column;
-    /* margin-top: -1rem; */
-  }
-
-  .grubhub {
-    margin: 0;
-  }
-  .doordash {
-    margin-top: -2em;
-  }
-}

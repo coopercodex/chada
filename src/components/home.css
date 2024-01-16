@@ -1,0 +1,90 @@
+.home {
+  display: flex;
+  margin: 7rem;
+  letter-spacing: 3px;
+  max-width: 100%;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-items > img {
+  align-self: center;
+}
+
+.contact-rows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-rows > p {
+  max-width: 50%;
+}
+
+.location-row {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  /* margin-right: 3rem; */
+  text-align: center;
+}
+
+.delivery {
+  display: flex;
+  flex-direction: row;
+  margin-top: -1rem;
+}
+
+.grubhub {
+  margin-right: 2em;
+  transition: all 0.2s ease-in-out;
+}
+.grubhub:hover {
+  transform: scale(1.03);
+}
+
+.doordash {
+  transition: all 0.2s ease-in-out;
+}
+
+.doordash:hover {
+  transform: scale(1.03);
+}
+
+@media screen and (max-width: 980px) {
+  .home {
+    margin: 1rem;
+  }
+  .contact-items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .location-row {
+    margin: 0;
+  }
+
+  .delivery {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: -1rem; */
+  }
+
+  .grubhub {
+    margin: 0;
+  }
+  .doordash {
+    margin-top: -2em;
+  }
+}
