@@ -34,7 +34,7 @@ export const Footer = () => {
               <p>
                 Monday: Closed For Lunch {"\n"} Tuesday: Closed {"\n"}
                 Wednesday: 11:30AM - 3PM {"\n"} Thursday: 11:30AM - 3PM {"\n"}
-                Friday: 11:30AM - 3PM {"\n"} SATURDAY: 3PM - 9PM {"\n"}
+                Friday: 11:30AM - 3PM {"\n"} Saturday: Closed For Lunch {"\n"}
                 Sunday: Closed For Lunch
               </p>
             </div>

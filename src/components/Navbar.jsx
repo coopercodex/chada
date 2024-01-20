@@ -45,11 +45,11 @@ export const Navbar = () => {
               Contact
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link className="home-button" to="/training">
               Shop
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link className="home-button" to="/gallery">
               Gallery
