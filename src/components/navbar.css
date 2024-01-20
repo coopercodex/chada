@@ -25,6 +25,7 @@
   object-fit: contain;
   width: 170px;
   transition: all 0.3s ease-in-out;
+  margin-left: 1rem;
 }
 
 .logo:hover {
