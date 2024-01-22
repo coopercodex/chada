@@ -58,9 +58,9 @@ export const Footer = () => {
             <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/chadathaidenver/">
               <FaFacebook className="fb" />
             </a>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/chada-thai-denver/">
+            {/* <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/chada-thai-denver/">
               <FaLinkedin className="linkedin" />
-            </a>
+            </a> */}
           </div>
           <div className="bottom">
             <div className="logo-footer"><img src={logoGold} /></div>
