@@ -12,16 +12,38 @@ export const Home = () => {
         <div className="contact-items">
           <img src={chadaDance}></img>
           <div className="contact-rows">
-            <h2>Lunch</h2>
-            <p>11AM - 3pm</p>
-            <h2>Dinner</h2>
-            <p>5pm-8:15pm</p>
-            <h2>Closed Tuesday</h2>
+          <h2>Hours</h2>
+          <div className="inner-content-center">
+            <div className="lunch">
+              <h4>Lunch</h4>
+              <p>
+                Monday: Closed For Lunch {"\n"} Tuesday: Closed {"\n"}
+                Wednesday: 11:30AM - 3PM {"\n"} Thursday: 11:30AM - 3PM {"\n"}
+                Friday: 11:30AM - 3PM {"\n"} SATURDAY: 3PM - 9PM {"\n"}
+                Sunday: Closed For Lunch
+              </p>
+            </div>
+            <div className="dinner">
+              <h4>Dinner</h4>
+              <p>
+                Monday: 5PM - 9PM {"\n"}
+                Tuesday: Closed {"\n"}
+                Wednesday: 5PM - 9PM {"\n"}
+                Thursday: 5PM - 9PM {"\n"}
+                Friday: 5PM - 9PM {"\n"}
+                Saturday: 3PM - 9PM {"\n"}
+                Sunday: 5PM - 9PM
+              </p>
+            </div>
+          </div>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
-              quasi minima omnis sit, delectus dolore perferendis aliquam error
-              dicta ut. Voluptates dolorem accusantium, iure omnis in enim sed
-              possimus quos!
+            Welcome to Chada Thai: Denver's First Thai Restaurant!
+            </p>
+            <p> 
+            🌟 Experience Authentic Thai Flavors Since the 1960s 🌟
+            </p>
+            <p>
+            At Chada Thai, we take pride in being Denver/s inaugural Thai restaurant, bringing you the rich and authentic flavors of Thailand. Our legacy dates back to the 1960s, making us a cherished family-owned and operated establishment. What sets us apart is our dedication to providing delicious authentic dishes. Our owner and chef personally oversee the preparation of every dish and appetizer. Join us for dine-in or takeout today!
             </p>
             <h2>Delivery</h2>
             <div className="delivery">
@@ -59,7 +81,7 @@ export const Home = () => {
           </div>
           <div className="location-row">
             <h2>Contact</h2>
-            <p>303-320-8582 | LinkedIn | IG</p>
+            <p>303-320-8582</p>
             <h2>Location</h2>
             <p>
               2005 East 17th Avenue <br /> Denver, CO 80206

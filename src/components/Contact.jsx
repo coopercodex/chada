@@ -37,7 +37,7 @@ export const Contact = () => {
               Wednesday: 5PM - 9PM {"\n"}
               Thursday: 5PM - 9PM {"\n"}
               Friday: 5PM - 9PM {"\n"}
-              Saturday: 12PM - 9PM {"\n"}
+              Saturday: 3PM - 9PM {"\n"}
               Sunday: 5PM - 9PM
             </p>
           </div>

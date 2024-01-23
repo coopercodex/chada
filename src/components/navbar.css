@@ -18,11 +18,12 @@
   transition: all 0.1s ease-in-out;
   height: 80px;
   padding-bottom: 1rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .logo {
   object-fit: contain;
+  margin: 0 0 10px 20px;
   width: 170px;
   transition: all 0.3s ease-in-out;
   margin-left: 1rem;
