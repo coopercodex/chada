@@ -13,13 +13,13 @@ export const Home = () => {
           <img src={chadaDance}></img>
           <div className="contact-rows">
           <h2>Hours</h2>
-          <div className="inner-content-center">
+          <div className="inner-content-center-home">
             <div className="lunch">
               <h4>Lunch</h4>
               <p>
                 Monday: Closed For Lunch {"\n"} Tuesday: Closed {"\n"}
                 Wednesday: 11:30AM - 3PM {"\n"} Thursday: 11:30AM - 3PM {"\n"}
-                Friday: 11:30AM - 3PM {"\n"} SATURDAY: 3PM - 9PM {"\n"}
+                Friday: 11:30AM - 3PM {"\n"} Saturday: 3PM - 9PM {"\n"}
                 Sunday: Closed For Lunch
               </p>
             </div>
@@ -36,12 +36,12 @@ export const Home = () => {
               </p>
             </div>
           </div>
-            <p>
+            <h3>
             Welcome to Chada Thai: Denver's First Thai Restaurant!
-            </p>
-            <p> 
+            </h3>
+            <h3> 
             🌟 Experience Authentic Thai Flavors Since the 1960s 🌟
-            </p>
+            </h3>
             <p>
             At Chada Thai, we take pride in being Denver/s inaugural Thai restaurant, bringing you the rich and authentic flavors of Thailand. Our legacy dates back to the 1960s, making us a cherished family-owned and operated establishment. What sets us apart is our dedication to providing delicious authentic dishes. Our owner and chef personally oversee the preparation of every dish and appetizer. Join us for dine-in or takeout today!
             </p>
@@ -80,7 +80,7 @@ export const Home = () => {
             </div>
           </div>
           <div className="location-row">
-            <h2>Contact</h2>
+            <h2>Phone</h2>
             <p>303-320-8582</p>
             <h2>Location</h2>
             <p>
