@@ -1,0 +1,19 @@
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.gallery-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery-image {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
