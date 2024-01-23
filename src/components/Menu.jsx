@@ -8,7 +8,7 @@ const Menu = () => {
     return items.map(item => {
       return (
         <div key={item.name}>
-          <p><span>{item.name}</span><span>{item.indicators ? item.indicators : ""}</span><span>{item.dietary ? item.dietary : ""}</span><br></br>
+          <p className='menu-name'><span>{item.name}</span><span>{item.indicators ? item.indicators : ""}</span><span>{item.dietary ? item.dietary : ""}</span><br></br>
           <span>{item.description ? item.description : ""}</span><br></br>
           <span>{item.price}</span>
           </p>
@@ -30,13 +30,14 @@ const Menu = () => {
       </p>
 
       <p>
-        ** Please let us know before ordering if yo have any allergies such as
+        <b>Please let us know before ordering if yo have any allergies such as
         gluten, shellfish, etc. All allergens may not be listed in item
-        description. **
+        description. </b>
       </p>
 
-      <p>KEY: V=vegetarian, GF=gluten free, VO=vegetarian option available </p>
+      <p>KEY: V=vegetarian, GF=gluten free, VO=vegetarian option available (vegetarian does NOT mean vegan, please clarify all dietary restrictions with staff!) </p>
 
+<div className="menu-main">
       <span className="menu-header">NEW THAI STREET FOOD MENU</span><br></br>
       <span>Try our new items for 2024! (might not all be available)</span>
       {renderMenuItems(streetData)}
@@ -60,7 +61,7 @@ const Menu = () => {
       {renderMenuItems(sidesData)}
 
       
-      
+      </div>
     </div>
   )
 }
