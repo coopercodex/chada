@@ -1,10 +1,11 @@
-import { Parallax } from "react-parallax"
-import padThai from "../images/padThai.jpg"
+import { Parallax } from "react-parallax";
+import padThai from "../images/padThai.jpg";
+import khaoSoi from "../images/khowsoi.png";
 
 export const ImageThree = () => (
   <Parallax
-  className="image"
-    bgImage={padThai}
+    className="image"
+    bgImage={khaoSoi}
     bgImageAlt="thai food on table"
     strength={-500}
   >
@@ -12,4 +13,4 @@ export const ImageThree = () => (
       <span className="img-text">The Menu</span>
     </div>
   </Parallax>
-)
+);
