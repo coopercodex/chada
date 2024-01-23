@@ -4,12 +4,18 @@
     align-items: center;
     text-align: center;
     padding: 20px;
+    font-size: 1.2rem;
 }
+
+.menu-info {
+    width: 70%;
+}
+
 .menu-header {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .menu-main {
    background-color: rgb(254, 243, 228);
-   padding: 15px 0;
+   padding: 15px 8px;
 }

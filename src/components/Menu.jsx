@@ -18,7 +18,7 @@ const Menu = () => {
   }
   return (
     <div className='menu-container'>
-         
+    <div className='menu-info'>
       <p>
         PLEASE BE PATIENT WITH US WE ARE UNDERSTAFFED. FOOD MAY TAKE LONGER THAN
         USUAL FOR TAKEOUT, DELIVERY & DINE IN!!!
@@ -36,7 +36,7 @@ const Menu = () => {
       </p>
 
       <p>KEY: V=vegetarian, GF=gluten free, VO=vegetarian option available (vegetarian does NOT mean vegan, please clarify all dietary restrictions with staff!) </p>
-
+      </div>
 <div className="menu-main">
       <span className="menu-header">NEW THAI STREET FOOD MENU</span><br></br>
       <span>Try our new items for 2024! (might not all be available)</span>

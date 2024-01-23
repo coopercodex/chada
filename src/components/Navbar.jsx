@@ -46,11 +46,6 @@ export const Navbar = () => {
             </Link>
           </li>
           <li>
-            {/* <Link className="home-button" to="/training">
-              Shop
-            </Link> */}
-          </li>
-          <li>
             <Link className="home-button" to="/gallery">
               Gallery
             </Link>
