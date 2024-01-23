@@ -12,11 +12,30 @@ export const Home = () => {
         <div className="contact-items">
           <img src={chadaDance}></img>
           <div className="contact-rows">
-            <h2>Lunch</h2>
-            <p>11AM - 3pm</p>
-            <h2>Dinner</h2>
-            <p>5pm-8:15pm</p>
-            <h2>Closed Tuesday</h2>
+          <h2>Hours</h2>
+          <div className="inner-content-center">
+            <div className="lunch">
+              <h4>Lunch</h4>
+              <p>
+                Monday: Closed For Lunch {"\n"} Tuesday: Closed {"\n"}
+                Wednesday: 11:30AM - 3PM {"\n"} Thursday: 11:30AM - 3PM {"\n"}
+                Friday: 11:30AM - 3PM {"\n"} SATURDAY: 3PM - 9PM {"\n"}
+                Sunday: Closed For Lunch
+              </p>
+            </div>
+            <div className="dinner">
+              <h4>Dinner</h4>
+              <p>
+                Monday: 5PM - 9PM {"\n"}
+                Tuesday: Closed {"\n"}
+                Wednesday: 5PM - 9PM {"\n"}
+                Thursday: 5PM - 9PM {"\n"}
+                Friday: 5PM - 9PM {"\n"}
+                Saturday: 3PM - 9PM {"\n"}
+                Sunday: 5PM - 9PM
+              </p>
+            </div>
+          </div>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
               quasi minima omnis sit, delectus dolore perferendis aliquam error
