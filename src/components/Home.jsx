@@ -81,7 +81,7 @@ export const Home = () => {
           </div>
           <div className="location-row">
             <h2>Contact</h2>
-            <p>303-320-8582 | LinkedIn | IG</p>
+            <p>303-320-8582</p>
             <h2>Location</h2>
             <p>
               2005 East 17th Avenue <br /> Denver, CO 80206

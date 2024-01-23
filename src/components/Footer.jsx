@@ -34,7 +34,7 @@ export const Footer = () => {
               <p>
                 Monday: Closed For Lunch {"\n"} Tuesday: Closed {"\n"}
                 Wednesday: 11:30AM - 3PM {"\n"} Thursday: 11:30AM - 3PM {"\n"}
-                Friday: 11:30AM - 3PM {"\n"} SATURDAY: 3PM - 9PM {"\n"}
+                Friday: 11:30AM - 3PM {"\n"} Saturday: 3PM - 9PM {"\n"}
                 Sunday: Closed For Lunch
               </p>
             </div>
@@ -58,9 +58,9 @@ export const Footer = () => {
             <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/chadathaidenver/">
               <FaFacebook className="fb" />
             </a>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/chada-thai-denver/">
+            {/* <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/chada-thai-denver/">
               <FaLinkedin className="linkedin" />
-            </a>
+            </a> */}
           </div>
           <div className="bottom">
             <div className="logo-footer"><img src={logoGold} /></div>
