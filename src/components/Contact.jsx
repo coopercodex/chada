@@ -55,7 +55,7 @@ export const Contact = () => {
                   src={grubhub}
                   height="90px"
                   width="100px"
-                  style={{ objectFit: "contain" }}
+                  style={{ objectFit: "contain", mixBlendMode: "darken" }}
                 ></img>
               </a>
             </p>
@@ -70,7 +70,7 @@ export const Contact = () => {
                   src={doordash}
                   height="90px"
                   width="100px"
-                  style={{ objectFit: "contain" }}
+                  style={{ objectFit: "contain", mixBlendMode: "darken" }}
                 ></img>
               </a>
             </p>
