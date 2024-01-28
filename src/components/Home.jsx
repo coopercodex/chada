@@ -36,14 +36,14 @@ export const Home = () => {
               </p>
             </div>
           </div>
-            <h3>
-            Welcome to Chada Thai: Denver's First Thai Restaurant!
-            </h3>
-            <h3> 
+            <p>
+            Welcome to Chada Thai: Denver&apos;s First Thai Restaurant!
+            </p>
+            <p> 
             🌟 Experience Authentic Thai Flavors Since the 1960s 🌟
             </h3>
             <p>
-            At Chada Thai, we take pride in being Denver/s inaugural Thai restaurant, bringing you the rich and authentic flavors of Thailand. Our legacy dates back to the 1960s, making us a cherished family-owned and operated establishment. What sets us apart is our dedication to providing delicious authentic dishes. Our owner and chef personally oversee the preparation of every dish and appetizer. Join us for dine-in or takeout today!
+            At Chada Thai, we take pride in being Denver&apos;s inaugural Thai restaurant, bringing you the rich and authentic flavors of Thailand. Our legacy dates back to the 1960s, making us a cherished family-owned and operated establishment. What sets us apart is our dedication to providing delicious authentic dishes. Join us for dine-in or takeout today!
             </p>
             <h2>Delivery</h2>
             <div className="delivery">

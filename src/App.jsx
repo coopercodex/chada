@@ -9,6 +9,7 @@ import { Navbar } from "./components/Navbar"
 import Menu from "./components/Menu"
 import { Contact } from "./components/Contact"
 import Map from "./components/Map"
+import Gallery from "./components/Gallery"
 // import { Home } from "@mui/icons-material"
 
 function App() {
@@ -41,6 +42,14 @@ function App() {
               <ImageTwo />
               <Contact />
               <Map />
+            </>
+          }
+        />
+        <Route
+          path="gallery"
+          element={
+            <>
+              <Gallery />
             </>
           }
         />

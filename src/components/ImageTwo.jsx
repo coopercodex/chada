@@ -1,13 +1,13 @@
 import React from 'react'
 import { Parallax } from 'react-parallax'
 import kitchen from '../images/kitchen.jpg'
-import panang from '../images/panang.jpg'
+import contact from '../images/contact.png'
 
 export const ImageTwo = () => {
   return (
     <Parallax
     className="image"
-      bgImage={panang}
+      bgImage={contact}
       bgImageAlt="chada thai street view"
       strength={-500}
     >
