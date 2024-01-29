@@ -53,6 +53,15 @@ function App() {
             </>
           }
         />
+        <Route
+          path="*"
+          element={
+            <>
+              <ImageThree />
+              <Menu />
+            </>
+          }
+        />
       </Routes>
       <Footer />
     </>
