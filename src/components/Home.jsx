@@ -58,7 +58,7 @@ export const Home = () => {
                     src={grubhub}
                     height="90px"
                     width="100px"
-                    style={{ objectFit: "contain" }}
+                    style={{ objectFit: "contain", mixBlendMode: "darken" }}
                   ></img>
                 </a>
               </p>
@@ -73,7 +73,7 @@ export const Home = () => {
                     src={doordash}
                     height="90px"
                     width="100px"
-                    style={{ objectFit: "contain" }}
+                    style={{ objectFit: "contain", mixBlendMode: "darken" }}
                   ></img>
                 </a>
               </p>
