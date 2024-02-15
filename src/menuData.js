@@ -31,6 +31,14 @@ export const streetData = [
     indicators: "",
     dietary: "",
   },
+  {
+    name: "Chicken Curry Samosas",
+    description:
+      "4 Flash fried wontons with ground chicken, curry powder, potatoes, carrots and onion. Served with a side of cucumber salad",
+    price: "9.96",
+    indicators: "9.95",
+    dietary: "",
+  },
 ];
 
 export const appData = [
