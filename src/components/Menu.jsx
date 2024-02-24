@@ -20,17 +20,16 @@ const Menu = () => {
     <div className='menu-container'>
     <div className='menu-info'>
       <p>
-        PLEASE BE PATIENT WITH US WE ARE UNDERSTAFFED. FOOD MAY TAKE LONGER THAN
-        USUAL FOR TAKEOUT, DELIVERY & DINE IN!!!
+        <i>P{`LEASE BE PATIENT WITH US WE ARE UNDERSTAFFED - FOOD MAY TAKE LONGER THAN
+        USUAL FOR TAKEOUT, DELIVERY & DINE IN`.toLowerCase()}</i>
       </p>
 
       <p>
-        FOR DINE IN CUSTOMERS- PLEASE ORDER INSIDE AT THE FRONT COUNTER!! THANK
-        YOU
+         ** <b>DINE IN CUSTOMERS:</b> PLEASE ORDER INSIDE AT THE FRONT COUNTER and we will bring your food out to you once its ready. THANK YOU **
       </p>
 
       <p>
-        <b>Please let us know before ordering if yo have any allergies such as
+        <b>Let us know before ordering if yo have any allergies such as
         gluten, shellfish, etc. All allergens may not be listed in item
         description. </b>
       </p>
