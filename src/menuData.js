@@ -43,7 +43,7 @@ export const streetData = [
     name: "Kra Pow Pad Thai",
     description:
       "Try our twist on the traditional Pad Kra Pow and Pad Thai dishes- pad kra pow flavor with pad thai noodles! Choice of chicken, pork, beef or tofu, with Thai basil, and green beans, with thin rice noodles ",
-    price: "9.96",
+    price: "16.65",
     indicators: "☼",
     dietary: "(VO)",
   },
