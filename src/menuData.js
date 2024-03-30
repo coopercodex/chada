@@ -16,6 +16,14 @@ export const streetData = [
     dietary: "",
   },
   {
+    name: "Chicken Curry Samosas",
+    description:
+      "4 Flash fried wontons with ground chicken, curry powder, potatoes, carrots and onion. Served with a side of cucumber salad",
+    price: "9.96",
+    indicators: "",
+    dietary: "",
+  },
+  {
     name: "Khow Soi",
     description:
       "Traditional northern Thai curry noodle dish, with chicken, red curry, onions, chili, pickled greens, beansprouts, crispy noodles and egg noodles. (meat choice cannot be changed)",
@@ -32,12 +40,12 @@ export const streetData = [
     dietary: "",
   },
   {
-    name: "Chicken Curry Samosas",
+    name: "Kra Pow Pad Thai",
     description:
-      "4 Flash fried wontons with ground chicken, curry powder, potatoes, carrots and onion. Served with a side of cucumber salad",
+      "Try our twist on the traditional Pad Kra Pow and Pad Thai dishes- pad kra pow flavor with pad thai noodles! Choice of chicken, pork, beef or tofu, with Thai basil, and green beans, with thin rice noodles ",
     price: "9.96",
-    indicators: "9.95",
-    dietary: "",
+    indicators: "☼",
+    dietary: "(VO)",
   },
 ];
 
