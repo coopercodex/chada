@@ -2,8 +2,8 @@ export const streetData = [
   {
     name: "Thai Fried Chicken Wings",
     description:
-      "6 Wings marinated and fried, served with sweet Thai chili sauce.",
-    price: "10.95",
+      "5 Wings marinated and fried, served with sweet Thai chili sauce.",
+    price: "11.95",
     indicators: "",
     dietary: "",
   },
