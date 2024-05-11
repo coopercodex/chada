@@ -24,15 +24,6 @@ export const streetData = [
     dietary: "",
   },
   {
-    name: "House Side Salad",
-    description:
-      "A simple house salad with lettuce, onion, tomato, carrots, and a peanut sauce dressing. Contains gluten and dairy.",
-    price: "8.00",
-    indicators: "",
-    dietary: "(VO)",
-  },
-];
-  {
     name: "Khow Soi",
     description:
       "Traditional northern Thai curry noodle dish, with chicken, red curry, onions, chili, pickled greens, beansprouts, crispy noodles and egg noodles. (meat choice cannot be changed)",
@@ -176,6 +167,14 @@ export const saladData = [
     indicators: "☼",
     dietary: "(GF)",
   },
+  {
+    name: "House Side Salad",
+    description:
+      "A simple house salad with lettuce, onion, tomato, carrots, and a peanut sauce dressing. Contains gluten and dairy.",
+    price: "8.00",
+    indicators: "",
+    dietary: "(VO)",
+  },
 ];
 export const entreeData = [
   {
@@ -204,77 +203,88 @@ export const entreeData = [
   },
   {
     name: "Pineapple Fried Rice",
-    description: "Fried Rice with pineapples, egg, cashew, raisins, tomato, onion, carrots, and broccoli.",
+    description:
+      "Fried Rice with pineapples, egg, cashew, raisins, tomato, onion, carrots, and broccoli.",
     price: "16.65",
     indicators: "",
     dietary: "(VO, GF)",
   },
   {
     name: "Pad Kee Mao (Drunken Noodles) ",
-    description: "Thick rice noodles stir fried in garlic oil with fresh basil, broccoli, carrots, and soy sauce",
+    description:
+      "Thick rice noodles stir fried in garlic oil with fresh basil, broccoli, carrots, and soy sauce",
     price: "16.65",
     indicators: "☼ ♥",
     dietary: "(VO)",
   },
   {
     name: "Pad See Ew",
-    description: "Thick rice noodles stir fried with egg, broccoli, gailan, garlic oil and sweet soy.",
+    description:
+      "Thick rice noodles stir fried with egg, broccoli, gailan, garlic oil and sweet soy.",
     price: "16.65",
     indicators: "☼ ♥",
     dietary: "(VO)",
   },
   {
     name: "Pad Phet (Spicy Eggplant)",
-    description: "Choice of meat, Eggplant, bamboo shoots, onions, carrots, zucchini, and mushrooms stir fried with garlic,  Thai basil, broccoli and mung bean paste. ",
+    description:
+      "Choice of meat, Eggplant, bamboo shoots, onions, carrots, zucchini, and mushrooms stir fried with garlic,  Thai basil, broccoli and mung bean paste. ",
     price: "16.95",
     indicators: "☼ ♥",
     dietary: "(VO)",
   },
   {
     name: "Pad Pleek Khing",
-    description: "A dish of fresh green beans and choice of meat, stir fried with our red curry paste, and rich peanut sauce.",
+    description:
+      "A dish of fresh green beans and choice of meat, stir fried with our red curry paste, and rich peanut sauce.",
     price: "16.65",
     indicators: "☼ ♥",
     dietary: "(VO)",
   },
   {
     name: "Satay Entree",
-    description: "8 skewers of chicken or tofu, grilled with a curry powder infused oil. Served with peanut sauce and cucumber salad. For a combination add 0.75",
+    description:
+      "8 skewers of chicken or tofu, grilled with a curry powder infused oil. Served with peanut sauce and cucumber salad. For a combination add 0.75",
     price: "17.50",
     indicators: "",
     dietary: "(VO)",
   },
   {
     name: "Pineapple Shrimp Curry",
-    description: "Sweet pineapple, and shrimp slowly simmered in our red curry sauce with fresh basil and chili.",
+    description:
+      "Sweet pineapple, and shrimp slowly simmered in our red curry sauce with fresh basil and chili.",
     price: "17.50",
     indicators: "☼",
     dietary: "(GF)",
   },
   {
     name: "Panang Curry",
-    description: "A thick, rich red curry blended with our sweet peanut sauce and basil. (tofu option comes with added veggies)",
+    description:
+      "A thick, rich red curry blended with our sweet peanut sauce and basil. (tofu option comes with added veggies)",
     price: "16.65",
     indicators: "☼ ♥",
     dietary: "(VO)",
   },
   {
     name: "Thai Curry",
-    description: "Coconut red curry, with eggplant, zucchini, carrots, bamboo shoots, and basil.",
+    description:
+      "Coconut red curry, with eggplant, zucchini, carrots, bamboo shoots, and basil.",
     price: "16.65",
     indicators: "☼ ♥",
     dietary: "(VO, GF)",
   },
   {
     name: "Green Curry ",
-    description: "Green curry with rich coconut milk, eggplant, zucchini, carrots, bamboo shoots, and basil.",
+    description:
+      "Green curry with rich coconut milk, eggplant, zucchini, carrots, bamboo shoots, and basil.",
     price: "16.65",
     indicators: "☼ ♥",
     dietary: "(VO, GF)",
   },
   {
     name: "Stir Fried Vegetables",
-    description: "Gailan, broccoli, bamboo shoots, mushrooms, onions, carrots, zucchini, stir fried in a soy-garlic based savory sauce.",
+    description:
+      "Gailan, broccoli, bamboo shoots, mushrooms, onions, carrots, zucchini, stir fried in a soy-garlic based savory sauce.",
     price: "16.65",
     indicators: "☼ ♥",
     dietary: "(VO)",
@@ -302,64 +312,72 @@ export const dessertData = [
     dietary: "(GF, V)",
     price: "6.00",
   },
-]
+];
 
 export const sidesData = [
   {
     name: "Peanut Sauce",
-    price: "2.50"
+    price: "2.50",
   },
   {
     name: "Brown Rice",
-    price: "2.75"
+    price: "2.75",
   },
   {
     name: "White Rice",
-    price: "2.50"
+    price: "2.50",
   },
   {
     name: "Side of Steamed Broccoli",
-    price: "5.00"
+    price: "5.00",
   },
   {
     name: "Side of Steamed Mixed Veggies",
-    price: "5.75"
+    price: "5.75",
   },
   {
     name: "Extra chicken, pork or beef",
-    price: "3.00"
+    price: "3.00",
   },
   {
     name: "Extra Shrimp",
-    price: "3.00"
+    price: "3.00",
   },
   {
     name: "Cucumber Salad",
-    price: "2.00"
+    price: "2.00",
   },
   {
     name: "Side/Substitute Noodles",
-    price: "2.50"
+    price: "2.50",
   },
-]
+];
 
 export const drinkData = [
   {
     name: "Coke, Diet Coke, Sprite",
-    price: "2.50"
+    price: "2.50",
   },
   {
     name: "Thai Iced Tea",
-    price: "4.50"
+    price: "4.50",
   },
   {
     name: "Thai Iced Coffee",
-    price: "4.50"
+    price: "4.50",
   },
-]
+];
 
-export const beerData = ["Singha", "Chang", "Tsing Tao", "Fat Tire", "PBR", "Sapporo", "Blue Moon"]
+export const beerData = [
+  "Singha",
+  "Chang",
+  "Tsing Tao",
+  "Fat Tire",
+  "PBR",
+  "Sapporo",
+  "Blue Moon",
+];
 
-export const redWineData = ["Cabernet Sauvignon", "Pinot Noir"]
+export const redWineData = ["Cabernet Sauvignon", "Pinot Noir"];
 
-export const whiteWineData = ["Chardonnay", "Sauvignon Blanc", "Pinot Grigio"]
+export const whiteWineData = ["Chardonnay", "Sauvignon Blanc", "Pinot Grigio"];
