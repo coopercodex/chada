@@ -173,7 +173,7 @@ export const saladData = [
       "A simple house salad with lettuce, onion, tomato, carrots, and a peanut sauce dressing. Contains gluten and dairy.",
     price: "8.00",
     indicators: "",
-    dietary: "(VO)",
+    dietary: "(V)",
   },
 ];
 export const entreeData = [
