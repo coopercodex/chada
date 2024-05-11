@@ -24,6 +24,15 @@ export const streetData = [
     dietary: "",
   },
   {
+    name: "House Side Salad",
+    description:
+      "A simple house salad with lettuce, onion, tomato, carrots, and a peanut sauce dressing. Contains gluten and dairy.",
+    price: "8.00",
+    indicators: "",
+    dietary: "(VO)",
+  },
+];
+  {
     name: "Khow Soi",
     description:
       "Traditional northern Thai curry noodle dish, with chicken, red curry, onions, chili, pickled greens, beansprouts, crispy noodles and egg noodles. (meat choice cannot be changed)",
