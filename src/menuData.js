@@ -1,12 +1,12 @@
 export const streetData = [
-  {
-    name: "Thai Fried Chicken Wings",
-    description:
-      "5 Wings marinated and fried, served with sweet Thai chili sauce.",
-    price: "11.95",
-    indicators: "",
-    dietary: "",
-  },
+  // {
+  //   name: "Thai Fried Chicken Wings",
+  //   description:
+  //     "5 Wings marinated and fried, served with sweet Thai chili sauce.",
+  //   price: "11.95",
+  //   indicators: "",
+  //   dietary: "",
+  // },
   {
     name: "Chada Thai Signature Rolls",
     description:
