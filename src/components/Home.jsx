@@ -45,6 +45,9 @@ export const Home = () => {
             <p>
             At Chada Thai, we take pride in being Denver&apos;s inaugural Thai restaurant, bringing you the rich and authentic flavors of Thailand. Our legacy dates back to the 1960s, making us a cherished family-owned and operated establishment. What sets us apart is our dedication to providing delicious authentic dishes. Join us for dine-in or takeout today!
             </p>
+            <p>
+              PLEASE NOTE: We have new hours. Check below for our current business hours.
+            </p>
             <h2>Delivery</h2>
             <div className="delivery">
               <p>
