@@ -13,7 +13,7 @@ export const Home = () => {
           <img src={chadaDance}></img>
           <div className="contact-rows">
           <h2>Hours</h2>
-          <h3>Closed for vacation: Oct 18 - 22. Reopening Wed Oct 23 @ 5pm</h3>
+          <h3>Holiday Hours: Closed Dec 23rd - Dec 26th. Reopening Fri Dec 27 @ Noon</h3>
           <div className="inner-content-center-home">
             <div className="lunch">
               <h4>Lunch</h4>
