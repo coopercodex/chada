@@ -317,15 +317,15 @@ export const dessertData = [
 export const sidesData = [
   {
     name: "Peanut Sauce",
-    price: "2.50",
+    price: "3.50",
   },
   {
     name: "Brown Rice",
-    price: "2.75",
+    price: "3.75",
   },
   {
     name: "White Rice",
-    price: "2.50",
+    price: "3.50",
   },
   {
     name: "Side of Steamed Broccoli",
@@ -345,11 +345,11 @@ export const sidesData = [
   },
   {
     name: "Cucumber Salad",
-    price: "2.00",
+    price: "3.00",
   },
   {
     name: "Side/Substitute Noodles",
-    price: "2.50",
+    price: "3.75",
   },
 ];
 
