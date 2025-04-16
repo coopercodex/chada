@@ -3,6 +3,7 @@ import "./home.css"
 import chadaDance from "../images/chadaDance.png"
 import grubhub from "../images/ghub.png"
 import doordash from "../images/doordash.png"
+import moment from "moment"
 
 export const Home = () => {
   const today = moment().format("YYYY-MM-DD")
