@@ -1,11 +1,13 @@
 import React from "react"
 import "./home.css"
 import chadaDance from "../images/chadaDance.png"
-import { SiGrubhub } from "react-icons/si"
 import grubhub from "../images/ghub.png"
 import doordash from "../images/doordash.png"
 
 export const Home = () => {
+  const today = moment().format("YYYY-MM-DD")
+  const isClosureDay = today === "2025-04-16" || today === "2025-04-17"
+
   return (
     <div className="home">
       <div className="contact-content">
@@ -13,7 +15,11 @@ export const Home = () => {
           <img src={chadaDance}></img>
           <div className="contact-rows">
           <h2>Hours</h2>
-          <h3>Holiday Hours: Closed Dec 23rd - Dec 26th. Reopening Fri Dec 27 @ Noon</h3>
+          {isClosureDay && (
+              <h3>
+                Chada Thai will be closed Wednesday April 16 and Thursday April 17. We apologize for the inconvenience.
+              </h3>
+            )}
           <div className="inner-content-center-home">
             <div className="lunch">
               <h4>Lunch</h4>
