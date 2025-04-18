@@ -18,7 +18,7 @@ export const Home = () => {
           <h2>Hours</h2>
           {isClosureDay && (
               <h3>
-                Chada Thai will be closed Friday April 18th for lunch. We apologize for the inconvenience.
+                Chada Thai will be closed Wednesday April 16th - Friday April 18th. We apologize for the inconvenience.
               </h3>
             )}
           <div className="inner-content-center-home">
