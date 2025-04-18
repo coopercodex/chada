@@ -7,7 +7,7 @@ import moment from "moment"
 
 export const Home = () => {
   const today = moment().format("YYYY-MM-DD")
-  const isClosureDay = today === "2025-04-16" || today === "2025-04-17"
+  const isClosureDay = today === "2025-04-18" 
 
   return (
     <div className="home">
@@ -18,7 +18,7 @@ export const Home = () => {
           <h2>Hours</h2>
           {isClosureDay && (
               <h3>
-                Chada Thai will be closed Wednesday April 16 and Thursday April 17. We apologize for the inconvenience.
+                Chada Thai will be closed Friday April 18th for lunch. We apologize for the inconvenience.
               </h3>
             )}
           <div className="inner-content-center-home">
