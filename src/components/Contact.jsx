@@ -24,7 +24,7 @@ export const Contact = () => {
             <h4>Lunch</h4>
             <p>
               Monday: Closed For Lunch {"\n"} Tuesday: Closed {"\n"}
-              Wednesday: Closed For Lunch {"\n"} Thursday: 11:30AM - 3PM {"\n"}
+              Wednesday: 11:30AM - 3PM {"\n"} Thursday: 11:30AM - 3PM {"\n"}
               Friday: 11:30AM - 3PM {"\n"} SATURDAY: 3PM - 9PM {"\n"}
               Sunday: Closed For Lunch
             </p>
