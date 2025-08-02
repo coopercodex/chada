@@ -21,26 +21,35 @@ export const Contact = () => {
           </p>
           <h2>Hours</h2>
           <div className="lunch">
-            <h4>Lunch</h4>
-            <p>
-              Monday: Closed For Lunch {"\n"} Tuesday: Closed {"\n"}
-              Wednesday: 11:30AM - 3PM {"\n"} Thursday: 11:30AM - 3PM {"\n"}
-              Friday: 11:30AM - 3PM {"\n"} SATURDAY: 3PM - 9PM {"\n"}
-              Sunday: Closed For Lunch
-            </p>
-          </div>
-          <div className="dinner">
-            <h4>Dinner</h4>
-            <p>
-              Monday: 5PM - 9PM {"\n"}
-              Tuesday: Closed {"\n"}
-              Wednesday: 5PM - 9PM {"\n"}
-              Thursday: 5PM - 9PM {"\n"}
-              Friday: 5PM - 9PM {"\n"}
-              Saturday: 3PM - 9PM {"\n"}
-              Sunday: 5PM - 9PM
-            </p>
-          </div>
+              <h4>Lunch</h4>
+              <p>
+                Monday: Closed For Lunch {"\n"} Tuesday: Closed {"\n"}
+                Wednesday: 11:30AM - 3PM {"\n"} Thursday: 11:30AM - 3PM {"\n"}
+                Friday: 11:30AM - 3PM {"\n"} Saturday: 12:30PM - 9PM {"\n"}
+                Sunday: Closed For Lunch
+              </p>
+            </div>
+            <div className="happy">
+              <h4>Happy Hour</h4>
+              <p>
+                Wednesday: 3PM - 5PM {"\n"}
+                Thursday: 3PM - 5PM {"\n"}
+                Friday: 3PM - 5PM {"\n"}
+                Saturday: 3PM - 5PM {"\n"}
+              </p>
+            </div>
+            <div className="dinner">
+              <h4>Dinner</h4>
+              <p>
+                Monday: 5PM - 9PM {"\n"}
+                Tuesday: Closed {"\n"}
+                Wednesday: 5PM - 9PM {"\n"}
+                Thursday: 5PM - 9PM {"\n"}
+                Friday: 5PM - 9PM {"\n"}
+                Saturday: 5PM - 9PM {"\n"}
+                Sunday: 5PM - 9PM
+              </p>
+            </div>
           <h2>Delivery and Pickup</h2>
           <p>For Pickup call us at 303-320-8582</p>
           <div className="contact-delivery">

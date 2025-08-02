@@ -29,13 +29,22 @@ export const Footer = () => {
         <div className="center">
           <h3>Hours</h3>
           <div className="inner-content-center">
-            <div className="lunch">
+          <div className="lunch">
               <h4>Lunch</h4>
               <p>
                 Monday: Closed For Lunch {"\n"} Tuesday: Closed {"\n"}
                 Wednesday: 11:30AM - 3PM {"\n"} Thursday: 11:30AM - 3PM {"\n"}
-                Friday: 11:30AM - 3PM {"\n"} Saturday: 3PM - 9PM {"\n"}
+                Friday: 11:30AM - 3PM {"\n"} Saturday: 12:30PM - 9PM {"\n"}
                 Sunday: Closed For Lunch
+              </p>
+            </div>
+            <div className="happy">
+              <h4>Happy Hour</h4>
+              <p>
+                Wednesday: 3PM - 5PM {"\n"}
+                Thursday: 3PM - 5PM {"\n"}
+                Friday: 3PM - 5PM {"\n"}
+                Saturday: 3PM - 5PM {"\n"}
               </p>
             </div>
             <div className="dinner">
@@ -46,7 +55,7 @@ export const Footer = () => {
                 Wednesday: 5PM - 9PM {"\n"}
                 Thursday: 5PM - 9PM {"\n"}
                 Friday: 5PM - 9PM {"\n"}
-                Saturday: 3PM - 9PM {"\n"}
+                Saturday: 5PM - 9PM {"\n"}
                 Sunday: 5PM - 9PM
               </p>
             </div>
